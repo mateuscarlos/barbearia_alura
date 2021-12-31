@@ -1,0 +1,81 @@
+form{
+	margin: 40px 0;
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.container__contato{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 500px;
+	height: 50px;
+	background-color: orange;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;	
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	height: 50px;
+	align-self: center;
+}
+
+.enviar:hover{
+	background-color: darkorange;
+	transform: scale(1.2);
+}
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #555555;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video, .fundo-beneficios, .beneficios, .video{
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+
+.lista-beneficios, .imagem-beneficios{
+	width: 100%;
+}
+}

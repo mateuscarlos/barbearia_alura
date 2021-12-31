@@ -1,0 +1,78 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa{
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 25px; 
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #C78C19;
+}
+
+
+
+
+footer{
+	text-align: center;
+	background-image: url(../bg.jpg);
+	padding: 40px;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 15px;
+}
+
+
+
+
+/* css da pagina inicial */
+
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video, .fundo-beneficios, .beneficios, .video{
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+
+.lista-beneficios, .imagem-beneficios{
+	width: 100%;
+}
+}
