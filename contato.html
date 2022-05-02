@@ -4,6 +4,7 @@
 <head>
  <meta charset="utf-8">
  <title>Contato - Barbearia Alura</title>
+ <!-- Loading the CSS files. -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -15,11 +16,13 @@
 </head>
 
 <body>
+ <!-- The header of the page. -->
  <header>
   <div class="caixa">
    <h1><img src="logo.png" alt="Logo da Barbearia Alura"></h1>
    <nav>
     <ul>
+     <!-- Creating a navigation bar. -->
      <li><a href="index.html">Home</a></li>
      <li><a href="produto.html">Produtos</a></li>
      <li><a href="contato.html">Contato</a></li>
@@ -28,8 +31,10 @@
   </div>
  </header>
 
+<!-- The main content of the page. -->
  <main>
    <div class="container__contato">
+  <!-- Creating a form for the user to fill out. -->
   <form>
    <label for="nomeSobrenome">Nome e Sobrenome</label>
    <input type="text" id="nomeSobrenome" class="input-padrao" required>
@@ -43,6 +48,7 @@
    <label for="mensagem">Mensagem</label>
    <textarea id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
 
+   <!-- Creating a fieldset with a legend and three radio buttons. -->
    <fieldset>
     <legend>Como prefere o nosso contato?</legend>
     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
@@ -66,6 +72,7 @@
 
   </form>
 
+  <!-- Creating a table with the days and hours of the barber shop. -->
   <table>
    <thead>
     <tr>
@@ -92,6 +99,7 @@
 </div>
  </main>
 
+ <!-- Creating a footer for the page. -->
  <footer>
   <img src="logo-branco.png" alt="Logo da Barbearia Alura">
   <p class="copyright">&copy; Copyright - Barbearia Alura 2021</p>
